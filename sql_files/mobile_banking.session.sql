@@ -80,3 +80,30 @@ CREATE TABLE IF NOT EXISTS transactions (
     FOREIGN KEY (sender_account_id) REFERENCES accounts(account_id),
     FOREIGN KEY (receiver_account_id) REFERENCES accounts(account_id)
 );
+
+DROP TABLE Account CASCADE;
+
+CREATE TABLE Account (
+    account_id SERIAL PRIMARY KEY,
+    client_id INT,
+    bank_id INT,
+    account_no VARCHAR(30),
+    account_type VARCHAR(50),
+    balance DECIMAL(10,2),
+    status VARCHAR(20),
+    FOREIGN KEY (client_id) REFERENCES Client(client_id),
+    FOREIGN KEY (bank_id) REFERENCES Bank(bank_id)
+);
+
+DROP TABLE accounts CASCADE;
+
+DROP TABLE IF EXISTS
+transactions,
+authentications,
+devices,
+loans,
+wallets,
+accounts,
+banks,
+clients
+CASCADE;
