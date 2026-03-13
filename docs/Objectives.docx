@@ -1,0 +1,25 @@
+  OBJECTIVES OF THE DATABASE SYSTEM
+1.	To store and manage client information efficiently
+The system will maintain accurate records of clients including their identification 
+details, contact information, and banking accounts.
+2.	To record and track financial transactions
+The database will store transaction details such as the transaction ID, transaction
+ amount, type, and date to ensure proper tracking of financial activities.
+3.	To manage digital wallets and bank accounts
+The system will maintain wallet balances and account information to support mobile
+ banking services.
+4.  To manage loan records for clients
+Loan information such as loan ID, loan amount, payment dates, and loan status will 
+be stored and managed in the database.
+5.  To ensure secure user authentication
+The system will store login credentials and authentication details to verify users
+ before allowing access to the mobile banking system.
+
+
+Main Operations Supported by the Database
+The system will support several important operations including:
+o	Storing data such as client information, accounts, wallets, and devices
+o	Retrieving data such as account balances and transaction history
+o	Updating records when transactions occur or when user information changes
+o	Managing transactions including transfers, deposits, and payments
+o	Authenticating users during login to ensure secure access to the system
