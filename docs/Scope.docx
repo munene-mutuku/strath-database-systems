@@ -1,8 +1,8 @@
   SCOPE OF THE SYSTEM
-The Mobile Banking Database System focuses on managing digital banking data 
+-The Mobile Banking Database System focuses on managing digital banking data 
 related to clients, accounts, wallets, transactions, loans, and 
 authentication processes.
-The system will allow the bank to store, manage, and retrieve financial 
+-The system will allow the bank to store, manage, and retrieve financial 
 information efficiently.
 
 The system will include:
@@ -17,4 +17,5 @@ The system will not include:
 •	Physical ATM operations
 •	External financial systems integration
 •	Mobile application interface development
+
 The focus of the project is the database structure and management of banking data.

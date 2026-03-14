@@ -16,7 +16,7 @@ The system will store login credentials and authentication details to verify use
  before allowing access to the mobile banking system.
 
 
-Main Operations Supported by the Database
+MAIN OPERATIONS OF THE DB
 The system will support several important operations including:
 o	Storing data such as client information, accounts, wallets, and devices
 o	Retrieving data such as account balances and transaction history

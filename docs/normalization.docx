@@ -1,23 +1,23 @@
 RELATIONS
-Account ( Account_Id Pk, client_Id Fk , Acount_No, Account_Type, Balance, Status)
-Bank ( Bank_Id Pk, Bank_Name, Established_year, Account_Id Fk)
-Client ( Client_Id Pk, fName, mName,(Name, Phone No., Email)
-Wallet ( Wallet_Id Pk, Balance, Client_Id Fk)
-Transaction ( Transaction_Id Pk, Account_Id Fk, Wallet_Id Fk, Amount, Status, transaction_date, Transaction_type, Sender_account, receiver_account_id)
-Authentication (Authentication_Id Pk, Client_Id Fk, IP_address, Login_time, Login_status)
-Device ( Device_Id Pk, Client_Id Fk, Device_type, Registration_date)
-Loan ( Loan_Id Pk, Client_Id Fk, Loan_amount, Loan_status, Payment_date)
+accounts ( account_id Pk, client_id Fk , acount_No, account_Type, balance, Status)
+bank ( bank_id Pk, bank_Name, established_year, account_id Fk)
+client (client_id Pk, fName, mName,lName, phone No., email)
+wallet ( wallet_id Pk, balance, client_id Fk)
+transaction ( transaction_id Pk, account_id Fk, wallet_id Fk, amount, status, transaction_date, transaction_type, sender_account, receiver_account_id)
+authentication (authentication_id Pk, client_id Fk, ip_address, login_time, login_status)
+device ( device_id Pk, client_id Fk, device_type, registration_date)
+loan ( loan_id Pk, client_id Fk, loan_amount, loan_status, payment_date)
 
 DEPENDENCIES
-Account_Id – Client_Id, Account_No, Account_type, Balance, Status
-Bank_Id – Bank_Name, Established_year, Account_Id
-Client_Id - fName, mName, lName, Phone_No, Email
-Wallet_Id – Balance, Client_Id
-Transaction_Id – Account_Id, Wallet_Id, Amount, Status, Transaction_date, Transaction_type, Sender_account_Id, Receiver_account_Id
-Authentication_Id – Client_Id, IP_address, Login_time, Login_status
-Device_Id – Client_Id, Device_type, Registration_date
-Loan_Id – Client_Id, Loan_amount, Loan_status, Payment-date
+account_id – client_id, account_no, account_type, balance, status
+bank_id – bank_name, established_year, account_Id
+client_id - fname, mname, lname, phone_No, email
+wallet_Id – balance, client_Id
+transaction_id – account_id, wallet_id, amount, status, transaction_date, transaction_type, sender_account_id, receiver_account_id
+authentication_id – client_id, ip_address, login_time, login_status
+device_id – client_id, device_type, registration_date
+loan_id – client_id, loan_amount, loan_status, payment-date
 
-1NF – All relations have primary keys and their attributes cannot be broken further down . Hence all relations are in 1NF.
+1NF – All relations have primary keys and their attributes cannot be broken further down as they contain one value per cell . Hence all relations are in 1NF.
 2NF – All relations have single attribute primary keys, hence no partial dependency exists. Hence all relations are in 2NF.
 3NF – There are no transitive dependencies between non-key attributes. Hence relations satisfy 3NF.
