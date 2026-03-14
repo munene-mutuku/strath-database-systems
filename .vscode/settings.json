@@ -6,10 +6,10 @@
             "server": "localhost",
             "port": 5432,
             "driver": "PostgreSQL",
-            "database": "company_222281",
-            "name": "company_222281",
-            "username": "postgres",
-            "password": "shushjustin2026"
+            "name": "mobile_banking",
+            "database": "mobile_banking",
+            "username": "admin",
+            "password": "12345"
         }
     ]
 }
