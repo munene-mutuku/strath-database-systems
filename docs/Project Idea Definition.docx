@@ -1,0 +1,78 @@
+ PROJECT OVERVIEW
+1.Project Idea Definition and Detailed Explanation
+PROJECT TITLE: Mobile Banking Database System
+Description of the Problem
+With the increasing use of mobile phones for financial services, banks must handle a
+large amount of customer and transaction data efficiently. Mobile banking allows users 
+to perform activities such as transferring money, checking balances, applying for loans, and paying bills using their mobile devices.
+However, without a well-structured database system, it becomes difficult for banks to
+manage customer information, financial accounts, transactions, and authentication data
+securely and efficiently. Problems such as data redundancy, slow retrieval of
+information, and poor transaction tracking may occur.
+The proposed Mobile Banking Database System is designed to manage and organize banking 
+information by storing structured data about clients, their accounts, wallets, devices,
+transactions, and loans in a centralized database.
+
+Context of the Problem in the Kenyan Environment
+In Kenya, mobile banking has become one of the most widely used financial technologies.
+Many individuals rely on mobile platforms to perform financial transactions without 
+visiting a physical bank branch. As the number of users grows, financial institutions 
+must manage increasing volumes of data such as customer accounts, transaction records,
+and authentication details.
+While these services have improved convenience and financial access, they have also
+introduced several challenges for banks and financial institutions.One major issue
+in Kenya’s mobile banking sector is the increasing risk of fraud and security breaches.
+Cybercriminals often attempt to gain unauthorized access to banking systems through
+stolen credentials, phishing attacks, or compromised devices. 
+Session expiration and authentication issues are also common in mobile banking platforms.
+When users experience login failures or session interruptions during transactions,
+it can lead to incomplete transactions.
+Additionally, system failures and transaction delays can occur when large volumes of
+users access mobile banking services simultaneously. If the database system is poorly
+designed, it may struggle to process transactions quickly, resulting in slow responses
+or system downtime.
+Increase in non-performing loans. Many mobile banking platforms offer quick digital
+loans to customers, but some borrowers fail to repay them on time due to the lack of
+an effective system to track loan records, repayment schedules and loan status.
+Customer support and account management is another challenge where many banks receive
+numerous customer complaints related to failed transactions, incorrect balances, or
+loan repayment issues. 
+
+
+Relation to Sustainable Development Goals (SDGs)
+This project relates to Sustainable Development Goal 9: Industry, Innovation and
+Infrastructure, which promotes the development of reliable and sustainable technological
+systems.
+Mobile banking systems improve financial infrastructure by enabling secure digital 
+financial services. By using an organized database system, banks can provide efficient
+financial services, promote technological innovation, and support the growth of digital
+banking in the Kenyan economy.
+
+How the Proposed Database System Helps Solve the Problem
+The proposed database system is designed to address those challenges by organizing 
+banking data into structured entities and relations as shown in the ERD.
+The system includes a Loan entity that stores information such as loan ID, loan amount,
+payment dates, and loan status. This allows the bank to monitor loan repayments,
+identify overdue loans, and manage credit records more effectively.
+Authentication entity  manages login credentials such as usernames and passwords.
+This ensures that only authorized users can access the system and reducing fraud and
+security risks. Additionally, the Device entity records information about the devices
+used to access the system, helping banks detect suspicious login activity from
+unknown devices.
+
+The system also improves transaction reliability by storing all financial activities
+in the Transaction entity, which records details such as transaction ID, amount,
+transaction type, date, and status. This ensures that transactions are properly
+tracked and can be reviewed if problems occur.
+To minimize system failures and delays, the database organizes data efficiently through
+separate entities such as Client, Account, Wallet, and Transaction. This structured
+design improves data retrieval speed and allows the system to handle large volumes
+of financial records more effectively.
+
+Finally, the system improves customer support and issue resolution by maintaining
+complete transaction histories and account records. Bank administrators can easily
+retrieve information about failed transactions, loan statuses, or account balances, 
+allowing them to resolve customer issues more quickly and accurately.
+Through these features, the proposed Mobile Banking Database System helps improve the
+security, efficiency, and reliability of digital banking services in Kenya.
+
