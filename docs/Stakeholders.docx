@@ -1,0 +1,30 @@
+        STAKEHOLDERS
+
+1. Bank Customers (Clients)
+  Interaction with the System:
+Clients use the mobile banking system to access their accounts, check wallet balances,
+perform transactions, and apply for loans.
+Benefits:
+•	Convenient access to banking services
+•	Ability to perform transactions anytime
+•	Secure management of personal financial information
+
+
+2. Bank Administrators
+  Interaction with the System:
+Administrators manage the database system by monitoring transactions, managing client
+accounts, and ensuring the system operates correctly.
+Benefits:
+•	Efficient management of financial records
+•	Easy monitoring of banking activities
+•	Improved data organization and security
+
+
+3. Bank Management
+  Interaction with the System:
+Bank management uses the system to review financial data, monitor loan records,
+and analyze transaction activity.
+Benefits:
+•	Better decision-making through accurate data
+•	Improved monitoring of financial operations
+•	Efficient management of banking services
